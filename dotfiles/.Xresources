@@ -1,0 +1,25 @@
+! ==========================================
+! TeufortBSD Heavy - URxvt Configuration
+! ==========================================
+
+! Cores do TeufortBSD (Cinza escuro e texto claro)
+URxvt.background: #1A1A1A
+URxvt.foreground: #E0E0E0
+URxvt.cursorColor: #E0E0E0
+URxvt.pointerColor: #E0E0E0
+
+! Fonte (Hack) com tamanho 14 e antialiasing
+URxvt.font: xft:Hack:pixelsize=14:antialias=true
+URxvt.boldFont: xft:Hack:bold:pixelsize=14:antialias=true
+
+! Desligar a barra de rolagem feia
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.scrollBar_floating: false
+
+! Histórico de rolagem (Scrollback) de 10.000 linhas
+URxvt.saveLines: 10000
+
+! Melhorar a renderização de caracteres
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0

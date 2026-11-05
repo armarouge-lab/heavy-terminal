@@ -1,0 +1,9 @@
+#!/bin/sh
+# Heavy - O Terminal do TeufortBSD
+# Abre o st com tmux e zsh em modo vim
+
+# Inicia o tmux em uma sessão chamada "main"
+# Se o tmux já estiver rodando, ele apenas se conecta (-A)
+#!/bin/sh
+exec urxvt -e tmux new-session -A -s main zsh
+
